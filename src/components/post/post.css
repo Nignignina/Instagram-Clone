@@ -1,0 +1,92 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Post_top {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  width: 375px;
+  height: 54px;
+}
+
+.Post_top_user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.User_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Post_user_image {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+
+.Post_user_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.User_username {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.User_location {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+
+.PostContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 375px;
+  max-height: 375px;
+  overflow-x: scroll;
+  background-color: black;
+  scroll-snap-type: x mandatory;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.PostContent img {
+  width: auto;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
+  scroll-snap-align: start;
+}
+
+.PostActions {
+  position: relative;
+  padding: 12px;
+  width: 375px;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  display: flex;
+  gap: 15px;
+}
+
+.Left_postActions {
+  display: flex;
+  gap: 18px;
+}

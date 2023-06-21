@@ -1,0 +1,29 @@
+.Stories {
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 12px;
+  height: fit-content;
+
+  border: 1px solid red;
+}
+
+.Stories::-webkit-scrollbar {
+  display: none;
+}
+.Stories_List {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 13px;
+}
+
+.Stories_item {
+  list-style-type: none;
+}
+
+.Stories_item:first-child {
+  padding-left: 12px;
+}
