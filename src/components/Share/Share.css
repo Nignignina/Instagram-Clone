@@ -1,0 +1,16 @@
+.Share {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.chat {
+  list-style: none;
+}
+
+.list_messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

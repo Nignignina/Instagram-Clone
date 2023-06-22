@@ -4,3 +4,12 @@
   width: 100vw;
   height: calc(100vh - 66px);
 }
+
+/* .Camera_filters {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.Camera_filters ul{} */
