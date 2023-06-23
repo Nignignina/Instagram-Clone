@@ -8,7 +8,9 @@ const Share = ({ messages }) => {
     <>
       <div className="Share">
         <ul className="list_messages">
-          inserire l'input share
+          <div className="input_share">
+            <input type="text" />
+          </div>
           {messages.map((chat) => {
             return (
               <li className="chat" key={chat.id}>
@@ -22,19 +24,3 @@ const Share = ({ messages }) => {
   );
 };
 export default Share;
-
-// const Stories = ({ data }) => {
-//   return (
-//     <>
-//       <div className="Stories">
-//         <ul className="Stories_List">
-//           {data.map((story) => (
-//             <li className="Stories_item" key={story.id.value}>
-//               <Story user={story} />
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     </>
-//   );
-// };

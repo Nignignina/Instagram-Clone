@@ -4,8 +4,6 @@
   overflow-x: scroll;
   padding: 12px;
   height: fit-content;
-
-  border: 1px solid red;
 }
 
 .Stories::-webkit-scrollbar {

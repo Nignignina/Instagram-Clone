@@ -1,4 +1,8 @@
 // import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Pagination } from "swiper";
+import "swiper/css/pagination";
 
 import TopBar from "./components/topBar";
 import Stories from "./components/Stories/Stories";
@@ -44,6 +48,7 @@ function App() {
         return (
           <>
             <Stories data={stories} />
+
             <Posts posts={posts} />
           </>
         );
@@ -54,7 +59,6 @@ function App() {
           <>
             <div className="share_top"></div>
 
-            <h1>sono share</h1>
             <Share messages={messages} />
           </>
         );

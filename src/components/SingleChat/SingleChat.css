@@ -1,33 +1,57 @@
 .ModalSingleChat {
   height: 100vh;
   width: 375px;
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(246, 246, 246);
   position: fixed;
   display: flex;
 
   justify-content: center;
-
   top: 0;
+
   z-index: 1;
 }
 
 .SingleChat {
-  position: relative;
+  position: absolute;
   width: 100%;
-  padding: 10px;
+  align-items: center;
 }
 
 .message {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
   padding: 5px;
   border-radius: 20px;
 }
 
 .left-align {
   text-align: left;
-  background-color: aqua;
+
   width: fit-content;
 }
 
 .right-align {
   text-align: right;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+}
+
+.imgSender {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.message_content {
+  background-color: rgb(249, 249, 249);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0.33px 0px #a6a6aa;
 }

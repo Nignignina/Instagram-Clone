@@ -1,0 +1,32 @@
+.ChatTopBar {
+  height: 70px;
+  box-shadow: 0px 0.33px 0px #a6a6aa;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.TopBar_profile {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper_profile_image {
+  width: 30px;
+  background-color: rgb(201, 201, 201);
+  height: 30px;
+  border-radius: 100%;
+}
+
+.wrapper_profile_image img {
+  width: 100%;
+}
+
+.profile_name {
+  font-size: 13px;
+}
