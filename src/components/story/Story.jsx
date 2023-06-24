@@ -4,9 +4,9 @@ const Story = ({ user }) => {
   return (
     <div className="Story">
       <div className="Story_img">
-        <img src={user.picture.thumbnail} alt="" />
+        <img src={user.userImage} alt="" />
       </div>
-      <p className="nickname_story">{user.login.username}</p>
+      <p className="nickname_story">{user.username}</p>
     </div>
   );
 };

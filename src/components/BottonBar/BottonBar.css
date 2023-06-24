@@ -1,0 +1,24 @@
+.BottonBar {
+  width: 375px;
+  height: 44px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 35px;
+  box-shadow: 0px 0.33px 0px #7e7e80;
+}
+
+.iconprofile {
+  width: 23px;
+  height: 23px;
+  background-color: antiquewhite;
+  border-radius: 100%;
+}
+.iconprofile img {
+  width: 100%;
+  border-radius: 100%;
+}

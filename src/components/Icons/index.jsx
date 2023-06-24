@@ -8,6 +8,9 @@ import Comment from "./Comment";
 import Save from "./Save";
 import Back from "./Back";
 import AccountList from "./AccountList";
+import Home from "./Home";
+import Search from "./Search";
+import Plus from "./Plus";
 
 export {
   Camera,
@@ -20,4 +23,7 @@ export {
   Save,
   Back,
   AccountList,
+  Home,
+  Search,
+  Plus,
 };

@@ -1,14 +1,11 @@
 // import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Pagination } from "swiper";
-import "swiper/css/pagination";
 
 import TopBar from "./components/topBar";
 import Stories from "./components/Stories/Stories";
 import Posts from "./components/Posts/Posts";
 import Camera from "./components/Camera/Camera";
 import Share from "./components/Share/Share";
+import BottonBar from "./components/BottonBar/BottonBar";
 import { GET } from "./utils/http";
 
 import "./App.css";
@@ -18,10 +15,10 @@ import { usersStory } from "./components/mock/Story";
 
 function App() {
   const [section, setSection] = useState("homepage");
-  const [stories, setStories] = useState(usersStory);
+  const [stories, setStories] = useState([]);
   const [posts, setPosts] = useState([]);
   const BASE_POST = "https://api.npoint.io/ad51a274ce542626ec65";
-  const BASE_STORY = "https://api.npoint.io/00cd43517267d3fa8838";
+  const BASE_STORY = " https://api.npoint.io/62fe3c2aaf86d6fb6b32";
 
   const [messages, setMessages] = useState([]);
 
@@ -68,6 +65,8 @@ function App() {
   return (
     <>
       <TopBar setSection={setSection} />
+
+      <BottonBar setSection={setSection} stories={stories} />
       {onSection()}
     </>
   );
